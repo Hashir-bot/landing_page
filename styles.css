@@ -97,7 +97,7 @@ ul {
 
 .section-one-cards {
     display: flex;
-    gap: 24px;
+    gap: 30px;
 }
 
 .section-one-card {
@@ -115,6 +115,10 @@ ul {
     border-radius: 16px;
 }
 
+.section-one-card-box img {
+    border-radius: 12px;
+}
+
 .section-one-card-text {
     font-size: 14px;
     text-align: center;
@@ -129,7 +133,7 @@ ul {
 }
 
 .section-two-content {
-    width: 1000px;
+    width: 800px;
 }
 
 .section-two-quote {
@@ -142,4 +146,55 @@ ul {
     text-align: end;
     font-weight: bolder;
     font-size: 20px;
+}
+
+.section-three {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-three-card {
+    background-color: #3882F6;
+    width: 1000px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.section-three-card-content {
+    width: 580px;
+}
+
+.section-three-card-heading, .section-three-card-text {
+    color: #F9FAF8;
+}
+
+.section-three-card-heading {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.section-three-card button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 6px 16px;
+    font-weight: bolder;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #1F2937;
+}
+
+.footer-text {
+    color: #F9FAF8;
 }
