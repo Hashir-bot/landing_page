@@ -119,3 +119,27 @@ ul {
     font-size: 14px;
     text-align: center;
 }
+
+.section-two {
+    height: 380px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two-content {
+    width: 1000px;
+}
+
+.section-two-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.section-two-ref {
+    text-align: end;
+    font-weight: bolder;
+    font-size: 20px;
+}
